@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+.navbar {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #121212;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.perfil img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.perfil a {
+    text-decoration: none;
+    color: #ff6f00;
+    font-weight: 600;
+}
+.boton {
+    background-color: #ff6f00;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+}
+.boton a{
+    color: #f5f1f1;
+    text-decoration: none;
+}
+.boton:hover {
+    background-color: #e65100;
+}
+.blog-banner {
+    text-align: center;
+    margin-top: 50px;
+}
+.blog-banner p {
+    margin-top: 30px;
+    color: #bdbdbd;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+}
+.viajes {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    max-width: 300px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+.viajes:hover {
+    transform: translateY(-5px);
+}
+.viajes img {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.viajes h2 {
+    font-size: 20px;
+    margin: 10px 0 5px;
+    color: #ff9800;
+}
+
+.viajes h3 {
+    color: #b0b0b0;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.viajes p {
+    font-size: 15px;
+    color: #e0e0e0;
+}
+.viajes span{
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #aaaaaa;
+    font-style: italic;
+}
